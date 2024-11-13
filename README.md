@@ -49,7 +49,7 @@ DB_PORT=3306
 DB_DATABASE=todo-app
 DB_USERNAME=root
 DB_PASSWORD=
-
+```
 ### 7. Run Migrations
 
 To create the necessary database tables, run the following command:
