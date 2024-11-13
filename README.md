@@ -43,6 +43,11 @@ php artisan key:generate
 Update your `.env` file with the necessary database and other configuration details.
 
 DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=todo-app
+DB_USERNAME=root
+DB_PASSWORD=
 
 ### 7. Run Migrations
 
