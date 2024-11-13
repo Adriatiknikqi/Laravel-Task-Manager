@@ -5,13 +5,13 @@ To set up the project locally, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:Adriatiknikqi/Laravel-Task-Manager.git
 ```
 
 ### 2. Navigate to the Project Directory
 
 ```bash
-cd <project-directory>
+cd Laravel-Task-Manager
 ```
 
 ### 3. Install PHP Dependencies
@@ -41,6 +41,8 @@ php artisan key:generate
 ### 6. Configure Environment Variables
 
 Update your `.env` file with the necessary database and other configuration details.
+
+DB_CONNECTION=mysql
 
 ### 7. Run Migrations
 
