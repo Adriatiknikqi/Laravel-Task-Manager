@@ -42,6 +42,7 @@ php artisan key:generate
 
 Update your `.env` file with the necessary database and other configuration details.
 
+```plaintext
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
@@ -82,12 +83,3 @@ php artisan serve
 ```
 
 The application will be available at [http://localhost:8000](http://localhost:8000).
-
-## Contributing
-
-Thank you for considering contributing to the project! Please follow the guidelines outlined in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
